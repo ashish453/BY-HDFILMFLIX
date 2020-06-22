@@ -20,7 +20,7 @@
     RewriteRule ^ index.php [L]
     
     
-    AuthUserFile "/app/www/.htpasswd"
+    AuthUserFile .htpasswd
     AuthType Basic
     AuthName "Sign In Required"
     Require valid-user
