@@ -20,7 +20,7 @@
     RewriteRule ^ index.php [L]
     
     
-    AuthUserFile BY-HDFILMFLIX/.htpasswd
+    AuthUserFile https://github.com/ashish453/BY-HDFILMFLIX/blob/master/.htpasswd
     AuthType Basic
     AuthName "Sign In Required"
     Require valid-user
