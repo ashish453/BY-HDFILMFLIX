@@ -20,7 +20,7 @@
     RewriteRule ^ index.php [L]
     
     
-    AuthUserFile /app/.okak
+    AuthUserFile /app/.htpasswd
     AuthType Basic
     AuthName "Sign In Required"
     Require valid-user
