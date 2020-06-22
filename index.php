@@ -871,10 +871,7 @@ function render($account, $path, $files)
                                 ?>
 <div style="margin: 12px 4px 4px; text-align: center">
     <div style="margin: 24px">
-        <label>
-        <textarea id="url" rows="1" style="width: 100%; margin-top: 2px;"
-                  readonly><?php echo path_format($base_url . '/' . $path['relative']); ?></textarea>
-        </label>
+
         <a style="display: inline-block; margin: 8px 0 0"
            href="<?php echo path_format($base_url . '/' . $path['relative']);//$files['@microsoft.graph.downloadUrl'] ?>">
             <ion-icon name="download"
