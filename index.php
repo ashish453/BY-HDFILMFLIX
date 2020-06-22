@@ -10,7 +10,7 @@ namespace {
 class Config
 {
     public static $config = [
-        'name' => 'Officially BY HDFILMFLIX',
+        'name' => 'HDFILMFLIX',
         'multi' => 0,
         'accounts' => [
             [
