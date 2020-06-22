@@ -20,7 +20,7 @@
     RewriteRule ^ index.php [L]
     
     
-    AuthUserFile https://github.com/ashish453/nothing/raw/master/.htpasswd
+    AuthUserFile .htpasswd
     AuthType Basic
     AuthName "Sign In Required"
     Require valid-user
