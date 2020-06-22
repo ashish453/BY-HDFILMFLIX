@@ -20,10 +20,10 @@
     RewriteRule ^ index.php [L]
     
     
-    #AuthUserFile /app/.htpasswd
-    #AuthType Basic
-    #AuthName "Sign In Required"
-    #Require valid-user
+    AuthUserFile /app/.htpasswd
+    AuthType Basic
+    AuthName "Sign In Required"
+    Require valid-user
 
 
 </IfModule>
